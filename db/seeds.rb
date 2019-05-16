@@ -14,3 +14,15 @@ artists = Artist.create([{ name: 'Coach' },
                          { name: 'Prince' },
                          { name: 'Eve' },
                          { name: 'Gwen' }])
+
+studios = Studio.create([{name: "Lu's Closet", location: 'Harlem, New York'},
+                         {name: "Quad Studios", location: 'Brooklyn, New York'},
+                         {name: "The Max", location: 'Harlem, New York'},
+                         {name: "THe Boom Boom Room", location: 'Harlem, New York'},
+                         {name: "The Block", location: 'Queens, New York'},
+                         {name: "Hit Factory", location: 'Staten Island, New York'},
+                         {name: "Glass Cage of Emotion", location: 'Bronx, New York'},
+                         {name: "Beat Farm", location: 'Harlem, New York'},
+                         {name: "Grandma's Basement", location: 'Harlem, New York'}])
+
+
