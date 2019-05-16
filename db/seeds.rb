@@ -25,7 +25,6 @@ studios = Studio.create([{name: "Lu's Closet", location: 'Harlem, New York'},
                          {name: "Beat Farm", location: 'Harlem, New York'},
                          {name: "Grandma's Basement", location: 'Harlem, New York'}])
 
-
 engineers = Engineer.create([{email: "lh@lh.com", password: 'password', user_name: "lu"},
                              {email: "young@guru.com", password: 'password', user_name: "young guru"},
                              {email: "stush@stush.com", password: 'password', user_name: "stush"},
@@ -34,3 +33,15 @@ engineers = Engineer.create([{email: "lh@lh.com", password: 'password', user_nam
                              {email: "rick@rick.com", password: 'password', user_name: "rick ruben"}])
                              {email: "teddy@teddy.com", password: 'password', user_name: "teddy riley"}])
                              {email: "gilly@gilly.com", password: 'password', user_name: "gilly"},
+
+#([{ user_name: 'Lu'}, {user_name: 'Stush'}, {user_name: 'Podrick'}, {user_name: 'Arya'}, {user_name: 'Teddy'}])
+#RecSession.create(appointment_date: '6.1.2019', engineer: Engineer.first, studio: Studio.first, artist: Artist.first )
+RecSession.create(appointment_date: '6.1.2019', engineer: engineers[0], studio: studios[0], artist: artists[0])
+RecSession.create(appointment_date: '6.1.2019', engineer: engineers[1], studio: studios[1], artist: artists[1])
+RecSession.create(appointment_date: '6.2.2019', engineer: engineers[2], studio: studios[2], artist: artists[2])
+RecSession.create(appointment_date: '6.2.2019', engineer: engineers[3], studio: studios[3], artist: artists[3])
+RecSession.create(appointment_date: '6.2.2019', engineer: engineers[4], studio: studios[4], artist: artists[4])
+#Rec_session.create(date: '6.2.2019', eg: engineers[1])
+#Rec_session.create(date: '6.3.2019', eg: engineers[2])
+#Rec_session.create(date: '6.4.2019', eg: engineers[3])s
+#Rec_session.create(date: '6.5.2019', eg: engineers[4])
