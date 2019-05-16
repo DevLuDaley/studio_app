@@ -26,3 +26,11 @@ studios = Studio.create([{name: "Lu's Closet", location: 'Harlem, New York'},
                          {name: "Grandma's Basement", location: 'Harlem, New York'}])
 
 
+engineers = Engineer.create([{email: "lh@lh.com", password: 'password', user_name: "lu"},
+                             {email: "young@guru.com", password: 'password', user_name: "young guru"},
+                             {email: "stush@stush.com", password: 'password', user_name: "stush"},
+                             {email: "dre@dre.com", password: 'password', user_name: "dr. dre"},
+                             {email: "timbo@timbo.com", password: 'password', user_name: "timbaland"},
+                             {email: "rick@rick.com", password: 'password', user_name: "rick ruben"}])
+                             {email: "teddy@teddy.com", password: 'password', user_name: "teddy riley"}])
+                             {email: "gilly@gilly.com", password: 'password', user_name: "gilly"},
