@@ -47,9 +47,15 @@
 []• Follow patterns in the Rails Style Guide (https://github.com/bbatsov/rails-style-guide). 
 []• Follow patterns in the Ruby Style Guide (https://www.evernote.com/client/web). 
 
+-------------------------------------------------------------------------------------------------
 
-
-branch "master" 
-[x] create "Oath" branch to test and implement
-view omni oath in separate window to "code along".
-[]create branches for each step
+[x] branch "master"
+    [x] create "Oath" branch to test and implement
+[] view omnioath in separate window to "code along".
+    
+[]bug
+    []3000 & /signup page leads to errors
+        [] unless in :engineer model I delete 'omniauthable'
+        &&
+        []
+[] create branches for each step
