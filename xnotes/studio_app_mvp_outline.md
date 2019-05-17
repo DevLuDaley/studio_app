@@ -50,6 +50,6 @@
 
 
 branch "master" 
-create "Oath" branch to test and implement
-
-create branches for each step
+[x] create "Oath" branch to test and implement
+view omni oath in separate window to "code along".
+[]create branches for each step
