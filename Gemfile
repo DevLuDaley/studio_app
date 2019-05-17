@@ -7,6 +7,7 @@ ruby '2.6.1'
 gem 'devise'
 
 gem 'rails', '~> 5.2.3'
+gem 'omniauth-github'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
