@@ -1,4 +1,5 @@
 [] 1. Use the Ruby on Rails framework.
+
 [] 2. Your models must:
 
     [] at least one has_many()
@@ -23,13 +24,14 @@
 
     [] Your application must provide 
     [] standard user authentication
-    [] including signup
-    [] login
+    [x] signup => http://127.0.0.1:3000/engineers/sign_up
+    [x] login => http://127.0.0.1:3000/engineers/sign_in
     [] logout
-    [] passwords
+    [x] passwords => http://127.0.0.1:3000/engineers/password/new
 
     [] Your authentication system must also allow login from some other service. 
         Facebook, Twitter, Foursquare, Github, etc...
+    [x] Github
 
 
     []You must include and make use of a nested resource with the appropriate RESTful URLs.
