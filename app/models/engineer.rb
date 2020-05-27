@@ -23,7 +23,7 @@ class Engineer < ApplicationRecord
       engineer.email = authi.info.email
       engineer.password = Devise.friendly_token[0,20]
 
-  end
+    end
 
   end
 end
